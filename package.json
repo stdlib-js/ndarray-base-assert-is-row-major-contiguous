@@ -1,0 +1,46 @@
+{
+  "name": "@stdlib/ndarray-base-assert-is-row-major-contiguous",
+  "version": "0.0.0",
+  "description": "Determine if an array is row-major contiguous.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "ndarray",
+    "strides",
+    "contiguous",
+    "row-major",
+    "row",
+    "major",
+    "order",
+    "is",
+    "iscontiguous",
+    "test",
+    "assert",
+    "check",
+    "validate",
+    "validation",
+    "valid",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
