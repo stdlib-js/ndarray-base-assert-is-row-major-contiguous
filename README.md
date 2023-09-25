@@ -54,7 +54,7 @@ An array is **contiguous** if the memory address of each array element is adjace
 ## Usage
 
 ```javascript
-import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@esm/index.mjs';
+import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.1.0-esm/index.mjs';
 ```
 
 #### isRowMajorContiguous( shape, strides, offset )
@@ -107,7 +107,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@esm/index.mjs';
 import strides2offset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@esm/index.mjs';
+import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.1.0-esm/index.mjs';
 
 var strides;
 var offset;
