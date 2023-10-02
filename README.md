@@ -47,43 +47,30 @@ An array is **contiguous** if the memory address of each array element is adjace
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-assert-is-row-major-contiguous
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isRowMajorContiguous = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tags). For example,
-
-```javascript
-isRowMajorContiguous = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isRowMajorContiguous = require( 'path/to/vendor/umd/ndarray-base-assert-is-row-major-contiguous/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isRowMajorContiguous;
-})();
-</script>
+var isRowMajorContiguous = require( '@stdlib/ndarray-base-assert-is-row-major-contiguous' );
 ```
 
 #### isRowMajorContiguous( shape, strides, offset )
@@ -126,17 +113,12 @@ bool = isRowMajorContiguous( shape, strides, offset );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
+var strides2offset = require( '@stdlib/ndarray-base-strides2offset' );
+var randu = require( '@stdlib/random-base-randu' );
+var isRowMajorContiguous = require( '@stdlib/ndarray-base-assert-is-row-major-contiguous' );
 
 var strides;
 var offset;
@@ -171,11 +153,6 @@ for ( i = 0; i < 100; i++ ) {
     bool = isRowMajorContiguous( shape, strides, offset );
     console.log( 'Shape: %s. Strides: %s. Offset: %d. Contiguous: %s.', shape.join( 'x' ), strides.join( ',' ), offset, bool );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -217,11 +194,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -237,11 +209,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-assert-is-row-major-contiguous.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-assert-is-row-major-contiguous
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-assert-is-row-major-contiguous/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-assert-is-row-major-contiguous?branch=v0.1.0
+[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-assert-is-row-major-contiguous?branch=main
 
 <!--
 
@@ -264,8 +236,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tree/umd
 [esm-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tree/esm
 [branches-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/main/LICENSE
 
 </section>
 
