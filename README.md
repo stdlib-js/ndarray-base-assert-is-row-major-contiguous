@@ -54,6 +54,11 @@ An array is **contiguous** if the memory address of each array element is adjace
 ## Usage
 
 ```javascript
+import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tags). For example,
+
+```javascript
 import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.2.1-deno/mod.js';
 ```
 
@@ -102,7 +107,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 import strides2offset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.2.1-deno/mod.js';
+import isRowMajorContiguous from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@deno/mod.js';
 
 var strides;
 var offset;
