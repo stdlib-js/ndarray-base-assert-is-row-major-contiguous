@@ -56,6 +56,11 @@ An array is **contiguous** if the memory address of each array element is adjace
 To use in Observable,
 
 ```javascript
+isRowMajorContiguous = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tags). For example,
+
+```javascript
 isRowMajorContiguous = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.2.1-umd/browser.js' )
 ```
 
@@ -68,7 +73,7 @@ var isRowMajorContiguous = require( 'path/to/vendor/umd/ndarray-base-assert-is-r
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -129,7 +134,7 @@ bool = isRowMajorContiguous( shape, strides, offset );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-row-major-contiguous@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
