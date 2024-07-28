@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-row-major-contiguous",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Determine if an array is row-major contiguous.",
   "license": "Apache-2.0",
   "author": {
