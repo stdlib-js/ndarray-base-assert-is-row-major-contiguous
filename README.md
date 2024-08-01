@@ -196,11 +196,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
@@ -216,11 +211,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-assert-is-row-major-contiguous.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-assert-is-row-major-contiguous
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-assert-is-row-major-contiguous/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-assert-is-row-major-contiguous?branch=v0.2.1
+[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-assert-is-row-major-contiguous?branch=main
 
 <!--
 
@@ -246,8 +241,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/tree/esm
 [esm-readme]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-assert-is-row-major-contiguous/main/LICENSE
 
 </section>
 
