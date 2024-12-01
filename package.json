@@ -43,7 +43,7 @@
     "@stdlib/ndarray-base-assert-is-single-segment-compatible": "^0.2.2",
     "@stdlib/ndarray-base-iteration-order": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
-    "@stdlib/types": "^0.4.1",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
