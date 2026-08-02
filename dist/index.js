@@ -1,48 +1,5 @@
+"use strict";var u=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(i){throw (r=0, i)}};};var t=u(function(g,o){
+var a=require('@stdlib/ndarray-base-assert-is-single-segment-compatible/dist'),n=require('@stdlib/ndarray-base-iteration-order/dist'),s=require('@stdlib/ndarray-base-assert-is-row-major/dist');function q(e,r,i){return n(r)!==0&&s(r)&&a(e,r,i)}o.exports=q
+});var v=t();module.exports=v;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Determine if an array is row-major contiguous.
-*
-* @module @stdlib/ndarray-base-assert-is-row-major-contiguous
-*
-* @example
-* var isRowMajorContiguous = require( '@stdlib/ndarray-base-assert-is-row-major-contiguous' );
-*
-* var shape = [ 2, 2 ];
-* var strides = [ 2, 1 ];
-* var offset = 0;
-*
-* var bool = isRowMajorContiguous( shape, strides, offset );
-* // returns true
-*
-* @example
-* var isRowMajorContiguous = require( '@stdlib/ndarray-base-assert-is-row-major-contiguous' );
-*
-* var shape = [ 2, 2 ];
-* var strides = [ -2, 1 ];
-* var offset = 2;
-*
-* var bool = isRowMajorContiguous( shape, strides, offset );
-* // returns false
-*
-* @example
-* var isRowMajorContiguous = require( '@stdlib/ndarray-base-assert-is-row-major-contiguous' );
-*
-* var shape = [ 2, 2 ];
-* var strides = [ 2, 2 ];
-* var offset = 0;
-*
-* var bool = isRowMajorContiguous( shape, strides, offset );
-* // returns false
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
