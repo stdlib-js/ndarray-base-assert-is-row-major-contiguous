@@ -44,7 +44,8 @@
     "@stdlib/ndarray-base-iteration-order": "^0.2.3",
     "@stdlib/ndarray-dtypes": "^0.4.1",
     "@stdlib/types": "^0.5.1",
-    "@stdlib/utils-library-manifest": "^0.2.4"
+    "@stdlib/utils-library-manifest": "^0.2.4",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.3",
